@@ -1,0 +1,394 @@
+#wrapper {
+    overflow-x: hidden;
+    position: relative; 
+}
+
+body {
+    background: rgb(202, 198, 198);
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.header__logo {
+    background-color: #fff;
+    font-size: 40px;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.header__logo a {
+    color: black;
+}
+
+.header__logo span {
+    content: 'site';
+    margin-right: -10px;
+    font-weight: 800;
+    color: black;
+}
+
+.header__nav {
+    background-color: black;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+}
+
+.header__nav li:first-child {
+    /* margin-left: 0; */
+    margin-left: 10px;
+}
+
+.header__nav__product::after {
+    content: "6";
+    border: 1px solid rgba(red, green, blue, .0);
+    border-radius: 50%;
+    padding: 5px 10px;
+    /* margin-left: 10px; */
+    margin-left: 22px;
+    background-color: gray;
+}
+
+.header__nav__company::after {
+    content: "2";
+    border: 1px solid rgba(red, green, blue, .0);
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 11px;
+    background-color: gray;
+}
+
+.header__nav li {
+    display: inline-block;
+    vertical-align: middle;
+    /* margin: 10px 40px; */
+    margin: 10px 10px;
+}
+
+.header__nav li a {
+    color: #fff;
+}
+
+.header__nav__font {
+    font-size: 30px;
+    vertical-align: middle;
+    /* margin-left: 415px; */
+    margin-left: 6px;
+}
+
+.header__image {
+    background-color: rgb(124, 160, 124);
+    min-height: 400px;
+    margin-bottom: 20px;
+    display: table;
+    width: 100%;
+}
+
+.header__image__align {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.header__image__align a {
+    /* font-size: 50px; */
+    font-size: 30px;
+    color: white;
+}
+
+.header__arrow {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header__arrow__left {
+    /* font-size: 40px; */
+    font-size: 30px;
+    color: aliceblue;
+    margin-right: 10px;
+    font-weight: 900;
+}
+
+.header__arrow__right {
+    /* font-size: 40px; */
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 10px;
+    font-weight: 900;
+}
+
+.intro__row {
+    margin:  0 -15px;
+}
+
+.intro__row__first {
+    /* width: calc(33.332% - 30px); */
+    width: calc(100% - 30px);
+    margin: 0 15px 30px;
+    float: left;
+    padding: 20px 40px;
+    background-color:#fff;
+}
+
+.intro__row__first h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.intro__row__second {
+    background-color: #fff;
+    padding: 20px 40px;
+}
+
+.intro__row__block {
+    display: inline-block;
+    max-width: 556px ;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.intro__row__block h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.intro__row__block h2 {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.intro__row__nav {
+    display: inline-block;
+    width: 100%;
+    max-width: 500px ;
+}
+
+.intro__row__nav h2 {
+    font-size: 30px;
+    margin: 20px 0 20px;
+}
+
+.intro__row__list {
+    background-color: gray;
+    padding: 20px 40px;
+}
+
+.intro__row__list__product::after {
+    content: "6";
+    border: 1px solid rgba(red, green, blue, .0);
+    border-radius: 50%;
+    padding: 5px 10px;
+    /* margin-left: 350px; */
+    margin-left: 30px;
+    background-color: #9a8d8d;
+    color: white;
+}
+
+.intro__row__list__company::after {
+    content: "2";
+    border: 1px solid rgba(red, green, blue, .0);
+    border-radius: 50%;
+    padding: 5px 10px;
+    /* margin-left: 338px; */
+    margin-left: 20px;
+    background-color: #9a8d8d;
+    color: white;
+}
+
+.intro__row__list li {
+    margin-bottom: 40px;
+}
+
+.intro__row__list li a {
+    color: white;
+}
+
+.intro__row__list li:last-child {
+    margin-bottom: 0;
+}
+
+.intro__gallery h2 {
+    font-size: 30px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.intro__gallery {
+    margin-bottom: 20px;
+}
+
+.intro__gallery__color {
+    display: inline-block;
+    /* width: calc(25% - 0px); */
+    width: calc(100% - 0px);
+    float: left;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.intro__gallery__color a {
+    color: white;
+}
+
+.blue {
+    background-color: rgb(156, 156, 236);
+}
+
+.green {
+    background-color: rgb(127, 202, 127);
+}
+
+.yellow {
+    background-color: rgb(233, 233, 134);
+}
+
+.red {
+    background-color: rgb(231, 121, 121);
+}
+
+.footer__content {
+    background-color: #fff;
+    padding: 20px 40px;
+}
+
+.footer__content__left {
+    display: inline-block;
+    /* width: 49%; */
+    margin-bottom: 10px;
+}
+
+.footer__content__right {
+    display: inline-block;
+    /* width: 49%;
+    text-align: right; */
+    color: rgb(131, 131, 15);
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .header__nav li:first-child {
+        margin-left: 0;
+    }
+
+    .header__nav__product::after {
+        margin-left: 10px;
+    }
+    
+    .header__nav li {
+        margin: 10px 40px;
+    }
+
+    .header__nav__font {
+        margin-left: 415px;
+    }
+
+    .header__image__align a {
+        font-size: 50px;
+    }
+
+    .header__arrow__left {
+        font-size: 40px;
+    }
+    
+    .header__arrow__right {
+        font-size: 40px;
+    }
+    
+    .intro__row {
+        margin:  0 -15px;
+    }
+    
+    .intro__row__first {
+        width: calc(33.332% - 30px);
+    }
+
+    .intro__row__list__product::after {
+        margin-left: 350px;
+    }
+    
+    .intro__row__list__company::after {
+        margin-left: 338px;
+    }
+
+    .intro__gallery__color {
+        width: calc(25% - 0px);
+    }
+
+    .footer__content__left {
+        width: 49%;
+    }
+    
+    .footer__content__right {
+        width: 49%;
+        text-align: right;
+    } 
+}
+
+@media screen and (min-width: 1280px) {
+    body {
+        font-size: 20px;
+    }
+
+    .header__logo {
+        font-size: 50px;
+    }
+
+    .header__nav__font {
+        margin-left: 373px;
+        font-size: 45px;
+    }
+
+    .header__image__align a {
+        font-size: 50px;
+    }
+    
+    .intro__row {
+        margin:  0 -15px;
+    }
+    
+    .intro__row__block {
+        max-width: 554px;
+        width: 100%;
+        vertical-align: top;
+    }
+
+    .intro__row__list li {
+        margin-bottom: 75px;
+    }
+
+    .intro__row__list__product::after {
+        margin-left: 335px;
+    }
+    
+    .intro__row__list__company::after {
+        margin-left: 320px;
+    }
+
+    .intro__gallery__color {
+        width: calc(25% - 0px);
+    }
+
+    .footer__content__left {
+        width: 49%;
+    }
+    
+    .footer__content__right {
+        width: 49%;
+        text-align: right;
+    }
+    
+}
