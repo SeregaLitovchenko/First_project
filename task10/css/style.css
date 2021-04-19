@@ -1,0 +1,139 @@
+.main__child__blocks__blocks1, .main__child__blocks__blocks2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  padding: 20px 40px;
+  min-height: 200px;
+  background-color: #483D8B;
+}
+
+#wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #680668;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.main__child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main__child__blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 580px) {
+  .main__child__blocks {
+    width: 70%;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 846px) {
+  .main__child__blocks {
+    width: 80%;
+    padding-right: 20px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.main__child__blocks__blocks1:hover {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.main__child__blocks__blocks1:active {
+  background-color: #191970;
+}
+
+@media (min-width: 846px) {
+  .main__child__blocks__blocks1 {
+    width: 50%;
+  }
+}
+
+.main__child__blocks__blocks2:hover {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.main__child__blocks__blocks2:active {
+  background-color: #191970;
+}
+
+@media (min-width: 846px) {
+  .main__child__blocks__blocks2 {
+    width: 50%;
+  }
+}
+
+.main__child__sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 15px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.main__child__sidebar h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 580px) {
+  .main__child__sidebar {
+    width: 30%;
+  }
+}
+
+@media (min-width: 846px) {
+  .main__child__sidebar {
+    width: 20%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+/*# sourceMappingURL=style.css.map */
