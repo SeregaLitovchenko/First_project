@@ -1,0 +1,239 @@
+.lights__body__red, .lights__body__yellow, .lights__body__green {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+body {
+  background-color: black;
+}
+
+#wrapper {
+  overflow-x: hidden;
+  position: relative;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+  padding: 60px 40px;
+  background-color: #9b5c2e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.lights {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.lights__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.lights__body__red {
+  background-color: red;
+  -webkit-animation-name: impuls;
+          animation-name: impuls;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes impuls {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: .1;
+  }
+  80% {
+    opacity: .1;
+  }
+  100% {
+    opacity: .1;
+  }
+}
+
+@keyframes impuls {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: .1;
+  }
+  80% {
+    opacity: .1;
+  }
+  100% {
+    opacity: .1;
+  }
+}
+
+.lights__body__yellow {
+  background-color: yellow;
+  -webkit-animation-name: impuls1;
+          animation-name: impuls1;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes impuls1 {
+  0% {
+    opacity: .1;
+  }
+  20% {
+    opacity: .1;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: .1;
+  }
+  80% {
+    opacity: .1;
+  }
+  100% {
+    opacity: .1;
+  }
+}
+
+@keyframes impuls1 {
+  0% {
+    opacity: .1;
+  }
+  20% {
+    opacity: .1;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: .1;
+  }
+  80% {
+    opacity: .1;
+  }
+  100% {
+    opacity: .1;
+  }
+}
+
+.lights__body__green {
+  background-color: green;
+  -webkit-animation-name: impuls2;
+          animation-name: impuls2;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes impuls2 {
+  0% {
+    opacity: .1;
+  }
+  20% {
+    opacity: .1;
+  }
+  40% {
+    opacity: .1;
+  }
+  60% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  85% {
+    opacity: .1;
+  }
+  90% {
+    opacity: 1;
+  }
+  95% {
+    opacity: .1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes impuls2 {
+  0% {
+    opacity: .1;
+  }
+  20% {
+    opacity: .1;
+  }
+  40% {
+    opacity: .1;
+  }
+  60% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  85% {
+    opacity: .1;
+  }
+  90% {
+    opacity: 1;
+  }
+  95% {
+    opacity: .1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.lights__bottom {
+  position: absolute;
+  border-left: 35px solid black;
+  height: 60px;
+  bottom: -60px;
+}
+/*# sourceMappingURL=style.css.map */

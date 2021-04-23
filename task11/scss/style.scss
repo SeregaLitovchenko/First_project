@@ -1,0 +1,177 @@
+%traffic-ligts {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+body {
+    background-color: black;
+}
+
+#wrapper {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+    padding: 60px 40px;
+    background-color: rgb(155, 92, 46);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.lights {
+        display: flex;
+        position: relative;
+        justify-content: center;
+ 
+    &__body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 400px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: black;
+
+        &__red {
+
+            @extend %traffic-ligts;
+
+            background-color: red;
+            animation-name: impuls;
+            animation-duration: 10s;  
+            animation-iteration-count: infinite;
+
+            @keyframes impuls {
+
+                0% {
+                    opacity: 1;
+                }
+
+                20% {
+                    opacity: 1;
+                }
+                40% {
+                    opacity: 1;
+                }
+
+                60% {
+                    opacity: .1;
+                }
+                
+                80% {
+                    opacity: .1;
+                }
+
+                100% {
+                    opacity: .1;
+                }
+            }
+          
+        }
+
+        &__yellow {
+
+            @extend %traffic-ligts;
+
+            background-color: yellow;
+            animation-name: impuls1;
+            animation-duration: 10s;  
+            animation-iteration-count: infinite;
+
+            @keyframes impuls1 {
+
+                0% {
+                    opacity: .1;
+                }
+
+                20% {
+                    opacity: .1;
+                }
+                40% {
+                    opacity: 1;
+                }
+
+                60% {
+                    opacity: .1;
+                }
+                
+                80% {
+                    opacity: .1;
+                }
+
+                100% {
+                    opacity: .1;
+                }
+            }
+
+        }
+
+        &__green {
+
+            @extend %traffic-ligts;
+
+            background-color: green;
+            animation-name: impuls2;
+            animation-duration: 10s;  
+            animation-iteration-count: infinite;
+
+            @keyframes impuls2 {
+
+                0% {
+                    opacity: .1;
+                }
+
+                20% {
+                    opacity: .1;
+                }
+                40% {
+                    opacity: .1;
+                }
+
+                60% {
+                    opacity: 1;
+                }
+                
+                80% {
+                    opacity: 1;
+                }
+
+                85% {
+                    opacity: .1;
+                }
+
+                90% {
+                    opacity: 1;
+                }
+
+                95% {
+                    opacity: .1;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+            
+        }
+    }
+
+    &__bottom {
+        position: absolute;
+        border-left: 35px solid black;
+        height: 60px;
+        bottom: -60px;
+
+    }
+    
+}
+
+
