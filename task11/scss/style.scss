@@ -24,8 +24,6 @@ body {
     justify-content: center;
 }
 
-
-
 .lights {
         display: flex;
         position: relative;
@@ -41,126 +39,30 @@ body {
         background-color: black;
 
         &__red {
-
             @extend %traffic-ligts;
 
             background-color: red;
             animation-name: impuls;
-            animation-duration: 3s;  
+            animation-duration: 10s;  
             animation-iteration-count: infinite;
-
-            @keyframes impuls {
-
-                0% {
-                    opacity: 1;
-                }
-
-                20% {
-                    opacity: 1;
-                }
-                40% {
-                    opacity: 1;
-                }
-
-                60% {
-                    opacity: .1;
-                }
-                
-                80% {
-                    opacity: .1;
-                }
-
-                100% {
-                    opacity: .1;
-                }
-            }
-          
         }
-
+        
         &__yellow {
-
             @extend %traffic-ligts;
 
             background-color: yellow;
             animation-name: impuls1;
-            animation-duration: 3s;  
+            animation-duration: 10s;  
             animation-iteration-count: infinite;
-
-            @keyframes impuls1 {
-
-                0% {
-                    opacity: .1;
-                }
-
-                20% {
-                    opacity: .1;
-                }
-                40% {
-                    opacity: 1;
-                }
-
-                60% {
-                    opacity: .1;
-                }
-                
-                80% {
-                    opacity: .1;
-                }
-
-                100% {
-                    opacity: .1;
-                }
-            }
-
         }
 
         &__green {
-
             @extend %traffic-ligts;
 
             background-color: green;
             animation-name: impuls2;
-            animation-duration: 3s;  
+            animation-duration: 10s;  
             animation-iteration-count: infinite;
-
-            @keyframes impuls2 {
-
-                0% {
-                    opacity: .1;
-                }
-
-                20% {
-                    opacity: .1;
-                }
-                40% {
-                    opacity: .1;
-                }
-
-                60% {
-                    opacity: 1;
-                }
-                
-                80% {
-                    opacity: 1;
-                }
-
-                85% {
-                    opacity: .1;
-                }
-
-                90% {
-                    opacity: 1;
-                }
-
-                95% {
-                    opacity: .1;
-                }
-
-                100% {
-                    opacity: 1;
-                }
-            }
-            
         }
     }
 
@@ -174,4 +76,105 @@ body {
     
 }
 
+@keyframes impuls {
+
+    0% {
+        opacity: 1;
+    }
+    
+    20% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: .1;
+    }
+    
+    80% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: .1;
+    }
+}
+
+@keyframes impuls1 {
+
+    0% {
+        opacity: .1;
+    }
+
+    20% {
+        opacity: .1;
+    }
+    40% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: .1;
+    }
+
+    65% {
+        opacity: .1;
+    }
+
+    70% {
+        opacity: .1;
+    }
+    
+    80% {
+        opacity: .1;
+    }
+
+    90% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes impuls2 {
+
+    0% {
+        opacity: .1;
+    }
+
+    20% {
+        opacity: .1;
+    }
+    40% {
+        opacity: .1;
+    }
+
+    60% {
+        opacity: 1;
+    }
+    
+    80% {
+        opacity: 1;
+    }
+
+    85% {
+        opacity: .1;
+    }
+
+    88% {
+        opacity: 1;
+    }
+
+    95% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
