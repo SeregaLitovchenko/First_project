@@ -97,11 +97,26 @@ body {
   0% {
     opacity: 1;
   }
+  10% {
+    opacity: 1;
+  }
   20% {
     opacity: 1;
   }
+  25% {
+    opacity: .1;
+  }
+  30% {
+    opacity: 1;
+  }
+  35% {
+    opacity: .1;
+  }
   40% {
     opacity: 1;
+  }
+  45% {
+    opacity: .1;
   }
   60% {
     opacity: .1;
@@ -118,11 +133,26 @@ body {
   0% {
     opacity: 1;
   }
+  10% {
+    opacity: 1;
+  }
   20% {
     opacity: 1;
   }
+  25% {
+    opacity: .1;
+  }
+  30% {
+    opacity: 1;
+  }
+  35% {
+    opacity: .1;
+  }
   40% {
     opacity: 1;
+  }
+  45% {
+    opacity: .1;
   }
   60% {
     opacity: .1;
@@ -142,8 +172,23 @@ body {
   20% {
     opacity: .1;
   }
+  30% {
+    opacity: .1;
+  }
   40% {
+    opacity: .1;
+  }
+  45% {
     opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 1;
+  }
+  58% {
+    opacity: .1;
   }
   60% {
     opacity: .1;
@@ -172,8 +217,23 @@ body {
   20% {
     opacity: .1;
   }
+  30% {
+    opacity: .1;
+  }
   40% {
+    opacity: .1;
+  }
+  45% {
     opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 1;
+  }
+  58% {
+    opacity: .1;
   }
   60% {
     opacity: .1;
@@ -205,23 +265,26 @@ body {
   40% {
     opacity: .1;
   }
+  58% {
+    opacity: .1;
+  }
   60% {
     opacity: 1;
   }
   80% {
     opacity: 1;
   }
-  85% {
+  83% {
     opacity: .1;
   }
-  88% {
+  87% {
     opacity: 1;
   }
-  95% {
+  92% {
     opacity: .1;
   }
   100% {
-    opacity: 1;
+    opacity: .1;
   }
 }
 
@@ -235,23 +298,26 @@ body {
   40% {
     opacity: .1;
   }
+  58% {
+    opacity: .1;
+  }
   60% {
     opacity: 1;
   }
   80% {
     opacity: 1;
   }
-  85% {
+  83% {
     opacity: .1;
   }
-  88% {
+  87% {
     opacity: 1;
   }
-  95% {
+  92% {
     opacity: .1;
   }
   100% {
-    opacity: 1;
+    opacity: .1;
   }
 }
 /*# sourceMappingURL=style.css.map */
