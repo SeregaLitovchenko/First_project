@@ -50,9 +50,34 @@ body {
 }
 
 
-.headingClick{
+.headingClick {
   cursor: pointer;
   &.active {
     color: brown;
   }
+}
+
+.your-class {
+  
+}
+
+
+.your-class1 {
+    border: 1px solid black;
+    background: url(https://bstatic.com/xdata/images/xphoto/1182x887/73542237.jpg?k=22f206214a56097d00964d7da5a38c383ffad6fea4a8e0c5128b02ece3b2b0e0&o=?size=S);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.your-class2 {
+  border: 1px solid black;
+  background: url(https://sportpanorama.by/Files/%D0%94%D1%80%D1%83%D0%B3%D0%BE%D0%B5/%D0%91%D0%B5%D0%B9%D1%81%D0%B1%D0%BE%D0%BB/News/GetImage.jpg);
+  min-height: 400px;
+}
+
+.your-class3 {
+  border: 1px solid black;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThLm1YzlyjAIaToConWLpelM7KYRbBlztJN3iN2o28IxNmkDs&s);
+  min-height: 400px;
 }
