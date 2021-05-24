@@ -11,28 +11,7 @@ body {
   position: relative;
 }
 
-// .container {
-//   margin: 20px;
-//   max-width: 1500px;
-
-//   @media (min-width: 768px){
-//     margin: 50px 0 0 100px;
-//   }
-// }
-
 .section__header {
-  // display: flex;
-  // flex-wrap: wrap;
-  // position: relative;
-  // justify-content: center;
-  
-  
-  // @media (min-width: 768px){
-  //   align-items: center;
-  //   flex-wrap: nowrap;
-  //   justify-content: space-between;
-  // }
-
 
   .container {
     margin: 20px 20px 0 20px;
@@ -105,7 +84,7 @@ body {
   &__decor {
     width: 40px;
     height: 40px;
-    background: #000;
+    background: var(--Blue);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -176,7 +155,7 @@ body {
       align-items: center;
       justify-content: center;
       text-align: left;
-      background: #000;
+      background: var(--Blue);
       position: relative;
 
       @media (min-width: 768px) {
@@ -206,7 +185,7 @@ body {
         &::before {
           position: absolute;
           content: '';
-          background: black;
+          background: var(--Blue);
           left: -10px;
           top: 0;
           bottom: 0;
