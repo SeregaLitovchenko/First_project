@@ -1,0 +1,212 @@
+.main__useful {
+    background: $LightGray;
+    padding-top: 25px;
+    padding-bottom: 20px;
+
+    @media (min-width: 768px) {
+        padding-bottom: 70px;
+    }
+
+    .container {
+        margin: 0 25px 50px;
+        display: flex;
+        padding-top: 20px;
+
+        @media (min-width: 768px) {
+            margin: 0 100px;
+            padding-top: 70px;
+        }
+    }
+
+    .orderr {
+        order: 2;
+
+        @media (min-width: 768px) {
+            order: 1;
+        }
+    }
+    
+    &__top {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+
+        @media (min-width: 992px) {
+            margin-bottom: 0;
+        }
+
+
+        &__text {
+            width: 100%;
+            color: $black;
+            font-family: $poppins;
+            position: relative;
+            order: 1;
+
+            @media (min-width: 768px) {
+                width: 50%;
+                order: 1;
+            }
+
+            h1 {
+                width: 90%;
+                font-size: 20px;
+                line-height: 1;
+                margin-bottom: 30px;
+
+                @media (min-width: 768px) {
+                    margin-bottom: 40px;
+                    font-size: 30px;
+                }
+
+                @media (min-width: 992px) {
+                    margin-bottom: 50px;
+                    font-size: 40px;
+                }
+            }
+
+            p {
+                width: 85%;
+                font-size: 12px;
+                padding-left: 20px;
+
+                @media (min-width: 768px) { 
+                    font-size: 16px;
+                    padding-left: 0;
+                }
+
+                &::before {
+                    content: '';
+                    width: 43px;
+                    height: 97px;
+                    position: absolute;
+                    top: 100%;
+                    left: 5px;
+                    background: transparent url(../assets/Arrowicon.png) no-repeat 50% 50%/contain;
+
+                    @media (min-width: 768px) { 
+                        width: 63px;
+                        height: 127px;
+                        top: 100%;
+                        left: -40px;
+                    }
+
+                    @media (min-width: 992px) { 
+                        width: 83px;
+                        height: 187px;
+                        top: 78%;
+                        left: -3px;
+
+                    }
+
+                    @media (min-width: 1024px) { 
+                        top: 90%;
+                        left: 0px;
+                    }
+                }
+            }
+
+            &__img {
+                    margin-bottom: 25px;
+                    max-width: 156px;
+                    max-height: 46px;
+
+
+                    @media (min-width: 992px) {
+                        margin-bottom: 50px;
+                        min-width: 256px;
+                        min-height: 76px;
+                    }
+            }
+
+            ul {
+
+                @media (min-width: 768px) {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                }
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid $MidGray;
+                    font-size: 14px;
+
+                    // @media (min-width: 768px) {
+                    //     width: calc(50% - 20px);
+                    //     margin-bottom: 20px;
+                    //     margin-left: 10px;
+                    //     font-size: 16px;
+                    // }
+
+                    @media (min-width: 992px) {
+                        width: calc(50% - 20px);
+                        margin-bottom: 20px;
+                        margin-left: 10px;
+                        font-size: 16px;
+                    }
+
+                    &:last-child:nth-child(odd) {
+                        margin-bottom: 25px;
+
+                        @media (min-width: 992px) {
+                            margin-left: calc(50% + 20px);
+                            margin-bottom: 0px;
+                        }
+                    }
+
+                    img {
+                        margin-right: 20px;
+                        margin-bottom: 0;
+                        max-width: 45px;
+                        max-height: 51px;
+
+                        @media (min-width: 992px) {
+                            max-width: 55px;
+                            max-height: 61px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    &__bottom {
+        background: $black;
+        color: $white;
+        padding: 20px 20px 20px 70px;
+        width: 90%;
+        font-family: $poppins;
+        display: flex;
+        flex-wrap: wrap;
+        order: 2;
+        margin: 0 auto;
+        font-size: 12px;
+
+        @media (min-width: 768px) {
+            font-size: 16px;
+            padding: 20px 20px 20px 90px;
+        }
+
+        @media (min-width: 992px) {
+            order: 2;
+            width: 55%;
+            margin-left: 15%;
+            padding: 40px 60px;
+        }
+
+        h3 {
+            font-size: 15px;
+            margin-bottom: 10px;
+
+            @media (min-width: 992px) {
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

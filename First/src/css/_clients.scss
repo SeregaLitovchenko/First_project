@@ -1,0 +1,217 @@
+.main__clients {
+  margin-bottom: 40px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 80px;
+  }
+
+  &__content {
+    background: $black;
+
+    .container {
+      margin: 0  25px;
+      padding-top: 20px;
+  
+      @media (min-width: 768px) {
+        margin: 0 80px;
+        padding-top: 60px;
+      }
+    }
+      h1 {
+        font-size: 30px;
+        font-family: $poppins;
+        text-align: center;
+        color: $white;
+
+        @media (min-width: 768px) {
+          margin: 0 80px;
+          font-size: 40px;
+          margin-bottom: 50px;
+        }
+      }
+  
+      p {
+        font-size: 14px;
+        font-family: $poppins;
+        text-align: center;
+        color: $white;
+        margin-bottom: 25px;
+
+        @media (min-width: 768px) {
+          font-size: 20px;
+        }
+      }
+  
+      &__slick {
+
+        .slick-dots {
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          padding-bottom: 40px;
+        }   
+      
+        .slick-dots button {
+          background: $white;
+          border: none;
+          border-radius: 50%;
+          height: 12px;
+          width: 12px;
+          margin: 5px;
+          outline: none;
+          font-size: 0;
+        } 
+  
+        .slick-dots li[class="slick-active"] button {
+          background: transparent;
+          border: 1px solid red;
+          height: 15px;
+          width: 12px;
+          border-radius: 50%;
+        }
+
+        &__col {
+
+          margin: 0 20px 20px 20px;
+
+          img {
+            object-fit: cover;
+          }
+
+          &__name {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8%;
+
+            a {
+              font-size: 14px;
+              font-family: $poppins;
+              padding: 0;
+              text-decoration: none;
+              color: $white;
+
+              @media (min-width: 768px) {
+                font-size: 16px;
+              }
+
+              &:hover {
+                color: $lightRed;
+              }
+            }
+  
+            &__stars {
+              display: flex;
+              direction: rtl;
+              unicode-bidi: bidi-override;
+  
+              li {
+                font-size: 14px;
+                color: $lightRed;
+                width: 25px;
+
+                @media (min-width: 768px) {
+                  font-size: 20px;
+                }
+              }
+            }
+                      
+            .main__clients__content__slick__col__name__stars > li:hover:before,
+            .main__clients__content__slick__col__name__stars > li:hover ~ li:before {
+              content: "\2605";
+              position: absolute;
+              cursor: pointer;
+            }
+          }
+
+          p {
+            font-size: 12px;
+            font-family: $poppins;
+            text-align: left;
+            position: relative;
+            width: 80%;
+            text-align: left;
+            margin: 0 auto;
+
+            @media (min-width: 768px) {
+            font-size: 14px;
+            }
+
+            &::before {
+              font-family: Georgia, 'Times New Roman', Times, serif;
+              position: absolute;
+              content: '\201C';
+              top: -55px;
+              left: -35px;
+              font-size: 130px;
+              color: $MidGray;
+              opacity: .4;
+
+              @media (min-width: 768px) {
+                font-size: 150px;
+                top: -65px;
+                left: -35px;
+              }
+            }
+          }
+        }
+      }
+  }
+
+  &__bottom {
+    background: url(../assets/Imgbgclients.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &__opacity {
+      background: rgba(0, 0, 0, .4);
+      padding: 16px 13px;
+
+      @media (min-width: 768px) {
+        padding: 20px 16px;
+      }
+
+      &__border {
+        font-family: $poppins;
+        display: flex;
+        flex-direction: column;
+        color: $white;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid rgba(240, 234, 234, 0.3);
+
+        @media (min-width: 768px) {
+          flex-direction: row;
+        }
+
+        h2 {
+          font-size: 20px;
+          margin: 40px;
+
+          @media (min-width: 768px) {
+            font-size: 30px;
+            margin: 80px 0 80px 84px;
+          }
+        }
+
+        a {
+          margin-bottom: 20px;
+          width: 90px;
+          height: 30px;
+          font-size: 12px;
+
+          @media (min-width: 768px) {
+            margin-right: 84px;
+            margin-bottom: 0;
+            width: 120px;
+            height: 35px;
+            font-size: 16px;
+          }
+        }
+      }
+      
+    }
+
+  }
+}

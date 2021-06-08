@@ -1,0 +1,39 @@
+@import '_reset.scss';
+@import '_variables.scss';
+@import '_fonts.scss';
+@import '_header.scss';
+@import '_mainSessions.scss';
+@import '_ourproffesional.scss';
+@import '_useful.scss';
+@import '_clients.scss';
+@import '_blog.scss';
+@import '_footer.scss';
+
+#wrapper {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.general__a {
+  transition: background .3s linear;
+  text-align: center;
+  background: $lightRed;
+  font-family: $poppins;
+  text-transform: capitalize;
+  color: $white;
+  text-decoration: none;
+  border: none;
+  width: 120px;
+  height: 35px;
+  font-size: 16px;
+  border-radius: 3px;
+  padding-top: 5px;
+
+
+  &:hover {
+    cursor: pointer;
+    background: darken(#ff3c2d, 20%);
+  }
+
+
+}
