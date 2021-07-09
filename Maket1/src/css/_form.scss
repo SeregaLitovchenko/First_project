@@ -1,0 +1,68 @@
+.form {
+    text-align: center;
+    background: $LightGray;
+    padding-top: 50px;
+
+    h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+
+        @media (min-width: 768px) {
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+    }
+
+    p {
+        font-size: 12px;
+        margin-bottom: 20px;
+        width: 90%;
+        margin: 0 auto 20px;
+
+        @media (min-width: 768px) {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+    }
+
+    &__text {
+        width: 90%;
+        margin: 0 auto;
+
+        @media (min-width: 768px) {
+            width: 50%;
+        }
+    }
+
+    input {
+        width: calc(50% - 15px);
+        height: 5vh;
+        border: none;
+        margin-bottom: 30px;
+    }
+
+    input:first-child {
+        margin-right: 25px;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+        border: none;
+        margin-bottom: 30px;
+    }
+
+    a {
+        margin-bottom: 100px;
+        padding: 12px 25px;
+        font-size: 12px;
+
+        @media (min-width: 768px) {
+            padding: 15px 50px;
+            font-size: 16px;
+        }
+    }
+}

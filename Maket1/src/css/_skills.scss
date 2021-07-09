@@ -1,0 +1,102 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+
+    .container {
+        margin: 0 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        padding: 20px 0;
+
+        @media (min-width: 768px) {
+            margin: 0 100px;
+            padding: 0;
+        }
+    }
+
+
+    h1 {
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-weight: 800;
+
+        @media (min-width: 768px) {
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+    }
+
+    &__progress {
+        background: $ultragray;
+        width: 100%;
+
+        
+        @media (min-width: 768px) {
+            width: 50%;
+        }
+
+        &__list {
+            text-transform: uppercase;
+    
+            li {
+                margin-bottom: 20px;
+
+                @media (min-width: 768px) {
+                    margin-bottom: 40px;
+                }
+            }
+
+            h3 {
+                margin-bottom: 20px;
+                font-size: 15px;
+
+                @media (min-width: 768px) {
+                    font-size: 20px;
+                }
+            }
+    
+            &__bg {
+                display: block;
+                height: 4px;
+                background: $LightGray;
+                position: relative;
+    
+                &::before {
+                    width: 75%;
+                    height: 100%;
+                    position: absolute;
+                    content: '';
+                    background: $cyan;
+                }
+            }
+    
+            &__web {
+                &::before {
+                    width: 90%;
+                }
+            }
+    
+            &__marketing {
+                &::before {
+                    width: 65%;
+                }
+            }
+        }
+    }
+
+    &__img {
+        display: flex;
+        width: 100%;
+
+        @media (min-width: 768px) {
+            width: 50%;
+        }
+        
+        img {
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+}

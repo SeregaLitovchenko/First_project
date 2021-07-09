@@ -1,0 +1,36 @@
+.work__process {
+    
+    .container {
+        margin: 0 50px;
+        font-family: $nunito;
+        text-align: center;
+
+        @media (min-width: 768px) {
+            margin: 0 100px;
+        }
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-top: 15px;
+
+        @media (min-width: 768px) {
+            font-size: 40px;
+            margin-top: 30px;
+        }
+    }
+
+    p {
+        font-size: 12px;
+        margin-bottom: 20px;
+
+        @media (min-width: 768px) {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+    }
+
+    &__video {
+        margin-bottom: 50px;
+    }
+}

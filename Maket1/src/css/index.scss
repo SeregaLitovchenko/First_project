@@ -1,0 +1,43 @@
+@import '_reset.scss';
+@import '_fonts.scss';
+@import '_variables.scss';
+@import '_banner.scss';
+@import '_about.scss';
+@import '_skills.scss';
+@import '_numbers.scss';
+@import '_work.scss';
+@import '_work_process.scss';
+@import '_services.scss';
+@import '_testimonials.scss';
+@import '_clients.scss';
+@import '_form.scss';
+@import '_footer.scss';
+
+#wrapper {
+  overflow-x: hidden;
+  position: relative;
+  font-family: $nunito;
+}
+
+.general__a {
+  transition: background .3s linear;
+  text-align: center;
+  background: $cyan;
+  font-family: $nunito;
+  text-transform: capitalize;
+  color: $white;
+  text-decoration: none;
+  border: none;
+  padding: 15px 50px;
+  font-size: 16px;
+  border-radius: 3px;
+  display: inline-block;
+
+
+  &:hover {
+    cursor: pointer;
+    background: darken($cyan, 20%);
+  }
+
+
+}

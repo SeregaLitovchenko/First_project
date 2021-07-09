@@ -1,0 +1,29 @@
+.about {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 50px;
+
+    h1 {
+        margin-bottom: 15px;
+        font-size: 20px;
+
+        @media (min-width: 768px) {
+            margin-bottom: 30px;
+            font-size: 40px;
+        }
+    }
+
+    p {
+        margin-bottom: 15px;
+        font-size: 12px;
+
+        @media (min-width: 768px) {
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+    }
+
+    img {
+        display: inline-block;
+    }
+}

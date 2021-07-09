@@ -1,0 +1,61 @@
+.services {
+    font-family: $nunito;
+    background: $LightGray;
+    padding: 50px 5px;
+
+    @media (min-width: 768px) {
+        padding: 100px 0;
+    }
+
+    .container {
+        margin: 0 50px;
+
+        @media (min-width: 768px) {
+            margin: 0 100px;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li {
+        text-align: center;
+        width: 50%;
+        margin-bottom: 30px;
+
+        @media (min-width: 768px) {
+            width: 25%;
+        }
+    }
+
+    .icons {
+        font-size: 30px;
+        margin-bottom: 15px;
+
+        @media (min-width: 768px) {
+            font-size: 40px;
+        }
+    }
+
+    h4 {
+        margin-bottom: 15px;
+        font-size: 15px;
+        text-transform: uppercase;
+
+        @media (min-width: 768px) {
+            font-size: 20px;
+        }
+    }
+
+    p {
+        font-size: 12px;
+        width: 70%;
+        margin: 0 auto;
+
+        @media (min-width: 768px) {
+            font-size: 16px;
+        }
+    }
+}
